@@ -1,0 +1,44 @@
+// CSS Post-setup
+html {
+	font-size: 62.5%;
+}
+
+body {
+	// Base Fonts
+	// font-family: $primaryFont;
+	// font-family: $secondaryFont;
+	/* add another item to body, if required ie: color */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1280; /* change max width & width, if required*/
+	width: 90%;
+}
+
+ul {
+	/* Clears li and ul */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	li {
+		list-style: none;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	/* add class(in front of img tag),if needed... removes white space */
+	display: block;
+	max-width: 100%;
+}
+
+// FONTS
+h1 {
+	color: red;
+}

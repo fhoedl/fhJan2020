@@ -1,12 +1,13 @@
-// CSS Post-setup
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
 	// Base Fonts
-	// font-family: $primaryFont;
-	// font-family: $secondaryFont;
+	height: 100%;
+	font-family: $primaryFont;
+	font-family: $condensedFont;
 	/* add another item to body, if required ie: color */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -30,6 +31,7 @@ ul {
 
 a {
 	text-decoration: none;
+	list-style: none;
 }
 
 img {
@@ -40,5 +42,26 @@ img {
 
 // FONTS
 h1 {
-	color: red;
+	color: $darkColor;
+	font-family: $condensedFont;
+	// font-size: 10rem;
+	// font-size: calc(8vw + 2.5rem);
+	font-size: clamp(40px, calc(8vw + 2.5rem), 12rem);
+	font-weight: 800;
+	text-align: center;
+	span {
+		color: $lightColor;
+	}
+}
+
+//Landing Page
+.landingPg {
+	background-color: hsl(0, 0%, 50%);
+	// clip-path: polygon(50% 0, 100% 0%, 100% 100%, 50% 100%);
+	//layout
+	display: grid;
+	height: 100vh;
+	width: 100%;
+	justify-items: center;
+	align-items: center;
 }

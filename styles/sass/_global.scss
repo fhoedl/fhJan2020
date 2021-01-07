@@ -42,7 +42,7 @@ img {
 
 // FONTS
 h1 {
-	color: $lightColor;
+	color: $textColorMed;
 	font-family: $condensedFont;
 	// font-size: 10rem;
 	// font-size: calc(8vw + 2.5rem);
@@ -50,13 +50,13 @@ h1 {
 	font-weight: 800;
 	text-align: center;
 	span {
-		color: $darkColor;
+		color: $textColorMed;
 	}
 }
 
-//Landing Page
+// LANDING Page
 .landingPg {
-	background-color: hsl(0, 0%, 50%); //fallback
+	background-color: $darkColor; //fallback
 	background-image: linear-gradient(
 		90deg,
 		$darkColor 0%,

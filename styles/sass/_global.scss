@@ -44,8 +44,7 @@ img {
 h1 {
 	color: $textColorMed;
 	font-family: $condensedFont;
-	// font-size: 10rem;
-	// font-size: calc(8vw + 2.5rem);
+	font-size: calc(8vw + 2.5rem); // temp Safari fallback
 	font-size: clamp(40px, calc(8vw + 2.5rem), 12rem);
 	font-weight: 800;
 	text-align: center;
